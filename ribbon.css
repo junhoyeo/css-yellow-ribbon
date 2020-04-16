@@ -1,0 +1,82 @@
+.ribbon-container {
+  position: relative;
+  width: 256px;
+  height: 256px;
+}
+
+.ribbon-top-wrap {
+  position: absolute;
+  height: 50px;
+  width: 84px;
+  left: 85px;
+  right: 85px;
+  top: 0;
+}
+
+.ribbon-top {
+  position: absolute;
+  height: 50px;
+  width: 84px;
+  background-color: #ef9322;
+  border-top-right-radius: 32px;
+  border-top-left-radius: 32px;
+}
+
+.ribbon-top-bottom-wrap {
+  height: 23px;
+  width: 86px;
+  position: absolute;
+  bottom: 0;
+}
+
+.ribbon-top-bottom {
+  background-color: #00264b;
+  height: 23px;
+  width: 86px;
+  border-top-right-radius: 42px;
+  border-top-left-radius: 42px;
+}
+
+.ribbon-left-cross-wrap {
+  background-color: #e9bc3e;
+  height: 224px;
+  width: 34px;
+  transform: rotate(-25deg);
+  position: absolute;
+  left: 32px;
+  top: -26.8px;
+  border-top-left-radius: 34px;
+}
+
+.ribbon-left-cross {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.ribbon-cross-bottom {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-bottom: 17px solid #00264b;
+  bottom: -1px;
+}
+
+.ribbon-right-cross-wrap {
+  background-color: #edc436;
+  height: 224px;
+  width: 34px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 34px;
+  top: -26.8px;
+  border-top-right-radius: 34px;
+}
+
+.ribbon-right-cross {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
