@@ -54,14 +54,14 @@
   width: 100%;
 }
 
-.ribbon-cross-bottom {
+.ribbon-left-cross-bottom {
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
-  border-bottom: 17px solid #00264b;
+  border-left: 36px solid transparent;
+  border-bottom: 34px solid #00264b;
   bottom: -1px;
+  left: -1px;
 }
 
 .ribbon-right-cross-wrap {
@@ -79,4 +79,14 @@
   position: relative;
   height: 100%;
   width: 100%;
+}
+
+.ribbon-right-cross-bottom {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 36px solid transparent;
+  border-bottom: 34px solid #00264b;
+  bottom: -1px;
+  right: -1px;
 }
